@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "title": "",
+    "subtitle": "",
+    "stats": [
+      {
+        "value": "300+",
+        "label": "сотрудники"
+      }
+    ]
+  },
+
+  "team": {
+    "id": 1,
+    "name": "",
+    "position": "",
+    "photo": "",
+    "telegram": "",
+    "github": ""
+  },
+
+  "timeline": {
+    "id": 1,
+    "year": "2026",
+    "title": "",
+    "description": "",
+    "type": ""
+  },
+  "vacancies": {
+    "id": 1,
+    "title": "",
+    "format": "",
+    "url": ""
+  }
+}
