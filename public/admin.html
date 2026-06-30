@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Админ-панель | TravelLine Tech</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+
+<main class="admin">
+    <h1>Админ-панель</h1>
+
+    <form id="adminForm">
+
+        <section class="admin-section">
+            <h2>Hero-блок</h2>
+
+            <label>
+                Заголовок
+                <textarea id="heroTitle" rows="4"></textarea>
+            </label>
+
+            <label>
+                Ссылка на видео
+                <input id="heroVideo" type="text">
+            </label>
+        </section>
+
+        <section class="admin-section">
+            <h2>О TravelLine / статистика</h2>
+
+            <h3>Большие элементы сверху</h3>
+            <div id="advantagesTitleParts"></div>
+
+            <h3>Список преимуществ</h3>
+            <div id="advantagesItems"></div>
+
+            <button type="button" id="addAdvantageItem">
+                Добавить преимущество
+            </button>
+        </section>
+
+        <section class="admin-section">
+            <h2>Команда</h2>
+
+            <label>
+                Заголовок блока
+                <input id="teamTitle" type="text">
+            </label>
+
+            <label>
+                Описание блока
+                <input id="teamDescription" type="text">
+            </label>
+
+            <div id="teamMembers"></div>
+
+            <button type="button" id="addTeamMember">
+                Добавить сотрудника
+            </button>
+        </section>
+
+        <section class="admin-section">
+            <h2>Платформа</h2>
+
+            <label>
+                Заголовок блока
+                <input id="platformTitle" type="text">
+            </label>
+
+            <label>
+                Описание блока
+                <input id="platformDescription" type="text">
+            </label>
+
+            <div id="platformItems"></div>
+
+            <button type="button" id="addPlatformItem">
+                Добавить продукт
+            </button>
+        </section>
+
+        <section class="admin-section">
+            <h2>Клиенты</h2>
+
+            <div id="clientsItems"></div>
+
+            <button type="button" id="addClient">
+                Добавить клиента
+            </button>
+        </section>
+
+        <button class="save-button" type="submit">
+            Сохранить все изменения
+        </button>
+
+        <p id="formMessage"></p>
+    </form>
+</main>
+
+<script src="js/admin.js"></script>
+</body>
+</html>
